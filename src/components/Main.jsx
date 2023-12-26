@@ -1,13 +1,15 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import image from '../assets/good-removebg-preview.png'
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="https://img.freepik.com/free-psd/colorful-social-media-post-template_125755-645.jpg?w=826&t=st=1703494763~exp=1703495363~hmac=159edf4f22850548d7ddad164cb2c1d13358d30e443e2e546272617f8e0470b7"
+        src={image}
+        // src="https://img.freepik.com/free-psd/colorful-social-media-post-template_125755-645.jpg?w=826&t=st=1703494763~exp=1703495363~hmac=159edf4f22850548d7ddad164cb2c1d13358d30e443e2e546272617f8e0470b7"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
