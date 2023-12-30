@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import image from '../assets/good-removebg-preview.png'
+import image from '../assets/baizeds.jpg';
 
 const Main = () => {
   return (
@@ -9,7 +9,7 @@ const Main = () => {
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
         src={image}
-        // src="https://img.freepik.com/free-psd/colorful-social-media-post-template_125755-645.jpg?w=826&t=st=1703494763~exp=1703495363~hmac=159edf4f22850548d7ddad164cb2c1d13358d30e443e2e546272617f8e0470b7"
+        // src="https://i.ibb.co/khgyGfY/pp.jpg"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -37,10 +37,13 @@ const Main = () => {
          </span>
         </h2>
         <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <a href="https://www.linkedin.com/in/baized-hasan-sadhin-53403b2a7/">
+          <FaLinkedin className="cursor-pointer" size={20}/>
+          </a>
             <FaTwitter className="cursor-pointer" size={20}/>
             <FaFacebook className="cursor-pointer" size={20}/>
             <FaInstagram className="cursor-pointer" size={20}/>
-            <FaLinkedin className="cursor-pointer" size={20}/>
+            
         </div>
       </div>
       </div>
