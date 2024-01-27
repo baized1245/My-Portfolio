@@ -9,7 +9,7 @@ import {
   FaPhone,
 } from 'react-icons/fa'
 import image from '../assets/baizeds.jpg'
-import image2 from '../assets/portfolio.jpeg'
+import image2 from '../assets/cover.jpeg'
 
 const Main = () => {
   return (

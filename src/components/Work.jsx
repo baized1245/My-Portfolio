@@ -4,6 +4,15 @@ import WorkItem from './WorkItem'
 const data = [
   {
     year: 2024,
+    title: 'Mern-Book-Store',
+    responsive: 'Available For All Device Screen',
+    tools:
+      'VS-code, Reactjs, Tailwindcss, Firebase, React-router-dom, slick-carousel, flowbite, react-icons, sweetalert2, node.js, express.js, MongoDB ',
+    details:
+      'In this Mern-Book-Store project I was trying to implement my skills in React,Tailwind,Firebase,  React-router-dom, node.js, express.js & mongodb database. Doing this project I was learn many thinks like, stragety for a online mern-Book-Store website, authentication system, api calling, pagination, filtering, cetagorige , routing  and many more thinks that I learn to building this project.',
+  },
+  {
+    year: 2024,
     title: 'Foodi',
     responsive: 'Available For All Device Screen',
     tools:
@@ -52,6 +61,14 @@ const data = [
     tools: 'VS-code, Reactjs,React-icons,Tailwind',
     details:
       'In this Nike-Landing-Page project I was trying to implement my skills in Reactjs and TailwindCSS.Doing this project I was learn many thinks like, stragety for a Online-Shope website,How to responsive a website, How to implement map, How to use hooks,How to send data by using props and many other etc.',
+  },
+  {
+    year: 2024,
+    responsive: 'Available For All Device Screen',
+    title: 'Air-CNC',
+    tools: 'VS-code, Reactjs,React-icons,Tailwind',
+    details:
+      'In this Air-CNC project I was trying to implement my skills in Reactjs and TailwindCSS.Doing this project I was learn many thinks like, stragety for a House booking website,How to responsive a website, How to implement map, How to use hooks,How to send data by using props and many other etc.',
   },
 ]
 
