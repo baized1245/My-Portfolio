@@ -14,6 +14,14 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
           img={
+            'https://img.freepik.com/free-psd/social-media-feed-template-companies-are-hiring_621600-56.jpg?size=626&ext=jpg&uid=R110489875&ga=GA1.2.1162881527.1690013272&semt=sph'
+          }
+          title="Mern-Job-Portal"
+          code="https://github.com/baized1245/Ksc-job-portal"
+          web={'https://job-portal-d8491.web.app/'}
+        />
+        <ProjectItem
+          img={
             'https://img.freepik.com/free-vector/online-library-isometric_98292-7026.jpg?size=626&ext=jpg&uid=R110489875&ga=GA1.1.1162881527.1690013272&semt=ais'
           }
           title="Mern-Book-Store"

@@ -8,15 +8,14 @@ import {
   FaGithub,
   FaPhone,
 } from 'react-icons/fa'
-import image from '../assets/baizeds.jpg'
-import image2 from '../assets/cover.jpeg'
+import image from '../assets/cover.jpeg'
 
 const Main = () => {
   return (
     <div id="main" className="mt-10">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1] rounded-2xl"
-        src={image2}
+        src={image}
         // src="https://i.ibb.co/khgyGfY/pp.jpg"
         alt=""
       />

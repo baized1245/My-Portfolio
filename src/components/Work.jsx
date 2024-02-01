@@ -4,10 +4,19 @@ import WorkItem from './WorkItem'
 const data = [
   {
     year: 2024,
+    title: 'Mern-Job-Portal',
+    responsive: 'Available For All Device Screen',
+    tools:
+      'VS-code, Reactjs, Tailwindcss, Firebase, React-router-dom, react-icons, sweetalert2, node.js, express.js, MongoDB etc.',
+    details:
+      'This is a total mern-stack project.In this Mern-Job-Portal project I was trying to implement my skills in React,Tailwind,Firebase,  React-router-dom, node.js, express.js & mongodb database and many others technology. Doing this project I was learn many thinks like, stragety for a Job-Portal website, authentication system, api calling, pagination, filtering, cetagorige , routing  and many more thinks that I learn to building this project.',
+  },
+  {
+    year: 2024,
     title: 'Mern-Book-Store',
     responsive: 'Available For All Device Screen',
     tools:
-      'VS-code, Reactjs, Tailwindcss, Firebase, React-router-dom, slick-carousel, flowbite, react-icons, sweetalert2, node.js, express.js, MongoDB ',
+      'VS-code, Reactjs, Tailwindcss, Firebase, React-router-dom, slick-carousel, flowbite, react-icons, sweetalert2, node.js, express.js, MongoDB etc.',
     details:
       'In this Mern-Book-Store project I was trying to implement my skills in React,Tailwind,Firebase,  React-router-dom, node.js, express.js & mongodb database. Doing this project I was learn many thinks like, stragety for a online mern-Book-Store website, authentication system, api calling, pagination, filtering, cetagorige , routing  and many more thinks that I learn to building this project.',
   },
